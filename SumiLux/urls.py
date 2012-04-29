@@ -1,10 +1,12 @@
 from django.conf.urls import patterns, include, url
+from SumiLux.views import sumilux
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
 
 urlpatterns = patterns('',
+	(r'^sumilux/$', sumilux),
     # Examples:
     # url(r'^$', 'SumiLux.views.home', name='home'),
     # url(r'^SumiLux/', include('SumiLux.foo.urls')),
