@@ -6,7 +6,7 @@ from SumiLux.views import sumilux
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-	(r'^sumilux/$', sumilux),
+	(r'^sumilux/$', sumilux.as_view()),
     # Examples:
     # url(r'^$', 'SumiLux.views.home', name='home'),
     # url(r'^SumiLux/', include('SumiLux.foo.urls')),

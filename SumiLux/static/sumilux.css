@@ -1,0 +1,19 @@
+#wrapper{	
+		width : 90%;
+		margin : 0 auto;
+		}
+#aside{	
+		width : 30%; 
+		float : right;
+		background-color :#3399FF ;
+		padding : 15px;
+		border-radius : 10px;
+		}
+#content{
+		width : 60%;
+		float :left;
+		border : 2px blue;
+		background-color : #CC66CC;
+		padding : 15px;
+		border-radius : 10px;
+		}
